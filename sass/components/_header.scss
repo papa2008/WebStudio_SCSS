@@ -1,0 +1,130 @@
+.header-wraper {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px 0;
+  }
+
+  .header-left {
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+  }
+
+  .header-right {
+    display: flex;
+    width: 333px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-link {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #212121;
+    letter-spacing: 0.03em;
+    animation: change-color 2s linear infinite;
+  }
+
+  .studio {
+    animation: ChangeColor 2s linear infinite;
+  }
+
+  @keyframes ChangeColor {
+    0% {
+      color: #2196f3;
+    }
+
+    100% {
+      color: #212121;
+    }
+  }
+
+  .web {
+    color: #2196f3;
+    animation: changecolor 2s linear infinite;
+  }
+
+  @keyframes change-color {
+    0% {
+      color: #2196f3;
+    }
+
+    100% {
+      color: #212121;
+    }
+
+  }
+
+  @keyframes changecolor {
+    0% {
+      color: #212121;
+    }
+
+    100% {
+      color: #2196f3;
+    }
+  }
+
+
+
+  .nav-list {
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .nav-list-link {
+    color: #212121;
+    position: relative;
+  }
+  .nav-list-link::after {
+      content: "";
+      position: absolute;
+    top: 52.5px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px; 
+  }
+  .nav-list-link:hover::after {
+    width: 100%;
+    transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-list-link:hover,
+  .nav-list-link:focus {
+    color: #2196f3;
+  }
+
+  .contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #2196f3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contact {
+    fill:#757575;
+    margin-right: 10px;
+
+  }
+
+  .contacts-link:hover .contact {
+    fill: #2196F3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }

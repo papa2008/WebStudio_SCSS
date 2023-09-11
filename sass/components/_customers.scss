@@ -1,0 +1,44 @@
+.regular-customers {
+    padding: 94px 0;
+  }
+
+  .customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+
+  .customers-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .customers-list-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 500ms ease;
+  }
+
+  .customers-list-item:hover {
+    border: 1px solid #2196F3;
+    transform: scale(1.1);
+  }
+
+  .customers-icons {
+    fill: #AFB1B8;
+  }
+
+  .customers-list-item:hover .customers-icons {
+    fill: #2196F3;
+  }

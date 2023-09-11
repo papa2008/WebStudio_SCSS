@@ -1,0 +1,93 @@
+.team {
+    background: #f5f4fa;
+    padding: 94px 215px;
+  }
+
+  .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+
+  .team-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .team-member {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+  }
+
+
+  .team-list-item {
+    transition: transform 500ms ease;
+  }
+  .team-list-item:hover {
+    transform: scale(1.1)
+  }
+
+  .team-list-img {
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+  }
+
+  .team-list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+
+  .team-list-paragr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+  }
+
+  .contacts {
+    width: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .contacts-list-item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 500ms ease;
+  }
+
+  .social-media-icons {
+    fill: #afb1b8;
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts-list-item:hover {
+    background-color: #2196f3;
+    border-radius: 50%;
+    transform: scale(1.1);
+  }
+  .contacts-list-item:hover .social-media-icons {
+    fill: #ffffff;
+  }
