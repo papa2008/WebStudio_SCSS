@@ -2,7 +2,7 @@
     padding-bottom: 94px;
   }
 
-  .work-title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -19,7 +19,7 @@
     transition: transform 500ms ease;
   }
 
-  .work-list-img {
+  &__img {
     width: 370px;
     height: 294px;
   }
@@ -32,7 +32,7 @@
     
   }
   
-  .thumb:nth-child(n)::after {
+  &__thumb:nth-child(n)::after {
     content: "";
     color: #fff;
     text-align: center;
@@ -54,24 +54,24 @@
     justify-content: center;
     align-items: center;
   }
-  .thumb:nth-child(1)::after {
+  &__thumb:nth-child(1)::after {
     content: "Десктопні додатки";
   }
-  .thumb:nth-child(2)::after {
+  &__thumb:nth-child(2)::after {
     content: "Мобільні додатки";
   }
-  .thumb:nth-child(3)::after {
+  &__thumb:nth-child(3)::after {
     content: "Дизайнерські рішення";
   }
   
-  .thumb {
+  &__thumb {
     transition: transform 500ms ease;
   }
-  .thumb:hover {
+  &__thumb:hover {
     transform: scale(1.1);
   }
 
-  .work-list-img {
+  &__img {
     width: 100%;
     object-fit: cover;
     object-position: center;

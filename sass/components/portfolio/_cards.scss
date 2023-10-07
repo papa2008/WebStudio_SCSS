@@ -9,7 +9,7 @@
     justify-content: space-between;
   }
   
-  .project-card {
+  &__card {
     width: 370px;
     height: 404px;
     background: #ffffff;
@@ -18,18 +18,18 @@
     padding-bottom: 20px;
   }
   
-  .project-card:nth-child(-n+6) {
+  &__card:nth-child(-n+6) {
     margin-bottom: 30px;
   }
   
-  .thumb {
+  &__thumb {
     width: 370px;
     height: 294px;
     margin-bottom: 20px;
     position: relative;
   }
   
-  .project-img {
+  &__img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
@@ -50,11 +50,11 @@
     transition: transform 1s ease;
   }
   
-  .project-card:hover .overlay {
+  &__card:hover .overlay {
     transform: translatey(0);
   }
   
-  .overlay-text {
+  &__text {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
@@ -62,7 +62,7 @@
     letter-spacing: 0.54px;
   }
   
-  .project-title {
+  &__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -71,7 +71,7 @@
     padding-left: 24px;
   }
   
-  .project-text {
+  &__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;

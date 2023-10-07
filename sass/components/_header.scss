@@ -1,4 +1,4 @@
-.header-wraper {
+.header {
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -7,17 +7,17 @@
     padding: 32px 0;
   }
 
-  .header-left {
-    display: flex;
-    width: 520px;
-    justify-content: space-between;
-  }
-
-  .header-right {
+  &__right {
     display: flex;
     width: 333px;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
   }
   
   .logo-link {
@@ -44,7 +44,7 @@
     }
   }
 
-  .web {
+  .logo-link__web {
     color: #2196f3;
     animation: changecolor 2s linear infinite;
   }
@@ -82,11 +82,11 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
   }
-  .nav-list-link {
+  &__link {
     color: #212121;
     position: relative;
   }
-  .nav-list-link::after {
+  &__link::after {
       content: "";
       position: absolute;
     top: 52.5px;
@@ -96,12 +96,12 @@
     background-color: #2196f3;
     border-radius: 2px; 
   }
-  .nav-list-link:hover::after {
+  &__link:hover::after {
     width: 100%;
     transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .nav-list-link:hover,
-  .nav-list-link:focus {
+  &__link:hover,
+  &__link:focus {
     color: #2196f3;
   }
 
@@ -112,19 +112,19 @@
     letter-spacing: 0.02em;
     color: #757575;
   }
-  .contacts-link:hover,
-  .contacts-link:focus {
+  &:hover,
+  &:focus {
     color: #2196f3;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .contact {
+  &__svg {
     fill:#757575;
     margin-right: 10px;
 
   }
 
-  .contacts-link:hover .contact {
+  &:hover &__svg {
     fill: #2196F3;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }

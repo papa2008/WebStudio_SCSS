@@ -1,8 +1,8 @@
-.regular-customers {
+.customers {
     padding: 94px 0;
   }
 
-  .customers-title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -19,7 +19,7 @@
     margin: 0 auto;
   }
 
-  .customers-list-item {
+  &__item {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -30,15 +30,15 @@
     transition: transform 500ms ease;
   }
 
-  .customers-list-item:hover {
+  &__item:hover {
     border: 1px solid #2196F3;
     transform: scale(1.1);
   }
 
-  .customers-icons {
+  &__icons {
     fill: #AFB1B8;
   }
 
-  .customers-list-item:hover .customers-icons {
+  &__item:hover .customers-list__icons {
     fill: #2196F3;
   }

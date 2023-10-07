@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
   }
   
-  .hero-title {
+  &__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -17,7 +17,7 @@
     margin-bottom: 30px;
   }
   
-  .hero-btn {
+  &__btn {
     display: block;
     margin: 0 auto;
     width: 216px;
@@ -36,6 +36,6 @@
     transition: transform 500ms ease;
   }
 
-  .hero-btn:hover {
+  &__btn:hover {
     transform: scale(1.1);
   }
